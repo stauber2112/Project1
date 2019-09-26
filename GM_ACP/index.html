@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>GM ACP OLA</title>
+<link rel="stylesheet" type="text/css" href="scripts/shadowbox.css">
+<script type="text/javascript" src="scripts/shadowbox.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<style type="text/css">
+body, html {
+	font-family: sans-serif, Helvetica, Verdana;
+	font-size: 16px;
+	line-height:24px;
+    background-color: white
+}
+#content-area {
+	margin: 0 auto;
+	width: 300px;
+}
+h1 {
+	color: #5d488e;
+	font-size: 22px;
+}
+ul {
+	padding-left: 18px;
+}
+a:link {
+	color: darkgray;
+}
+a:visited {
+	color: darkgray;
+}
+a:hover {
+	color: #666666;
+}
+a:visited:hover {
+	color: #666666;
+}
+a:active {
+	color: darkgray;
+}
+.hidden{
+	display: none;
+}
+.revised{
+	color:darkgray;
+}
+</style>
+<script type="text/javascript">
+
+Shadowbox.init({overlayOpacity: 0.9}, function() {
+
+    Shadowbox.setup("#content-area a[rel*='shadowbox']", {
+        continuous: true,
+        autoplayMovies: true
+    });
+
+});	
+
+$(document).ready(function() {
+
+  $("a.toggle").click(function() {
+	  $(this).parent().parent().next("div").toggle();	  
+  });
+  
+});
+
+</script>
+</head>
+
+<body>
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="15" colspan="4" align="center" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15" colspan="4" align="center" valign="top"><img src="media/mrm-logo-beta.png"><br><h1><script>document.write(window.document.title);</script></h1><br/></td>
+  </tr>
+  <tr>
+    <td width="25" rowspan="3" valign="top"><img src="media/left_side.jpg" width="25" height="565"></td>
+    <td valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="35">
+        <tr>
+          <td>
+        <div id="content-area">
+
+	        <p><strong>Click link(s) below to review</strong></p>
+            <h4>Standard OLA</h4>
+
+			<ul>   
+                <li><a href="300x250/index.html" rel="shadowbox[a];width=300;height=250;title=300x250">300x250</a></li> 
+                <li><a href="728x90/index.html" rel="shadowbox[a];width=728;height=90;title=728x90">728x90</a></li>
+                <li><a href="300x600/index.html" rel="shadowbox[a];width=300;height=600;title=300x600">300x600</a></li>
+                <li><a href="160x600/index.html" rel="shadowbox[a];width=160;height=600;title=160x600">160x600</a></li> 
+                <li><a href="320x50/index.html" rel="shadowbox[a];width=320;height=50;title=320x50">320x50</a></li> 
+                <li><a href="300x50/index.html" rel="shadowbox[a];width=300;height=50;title=300x50">300x50</a></li> 
+        	</ul>
+            <!--<h4>title</h4>
+
+			<ul>   
+                <li><a href="title/300x250/index.html" rel="shadowbox[a];width=300;height=250;title=300x250">300x250 HTML5</a></li>  
+        	</ul>  
+            <h4>title</h4>
+
+			<ul>   
+                <li><a href="title/300x250/index.html" rel="shadowbox[a];width=300;height=250;title=300x250">300x250 HTML5</a></li>  
+        	</ul>-->
+
+        </div>
+          </td>
+        </tr>
+      </table></td>
+    <td width="23" rowspan="3" valign="top"><img src="media/right_side.jpg" width="23" height="565"></td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+
